@@ -9,6 +9,7 @@ import Events from "./Components/Events";
 import BookATable from "./Components/BookATable";
 import Testimonials from "./Components/Testimonials";
 import Gallery from "./Components/Gallery";
+import Chefs from "./Components/Chefs";
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
       <BookATable/>
       <Testimonials/>
       <Gallery/>
+      <Chefs/>
     </div>
   );
 }

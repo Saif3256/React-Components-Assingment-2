@@ -8,6 +8,7 @@ import Specials from "./Components/Specials";
 import Events from "./Components/Events";
 import BookATable from "./Components/BookATable";
 import Testimonials from "./Components/Testimonials";
+import Gallery from "./Components/Gallery";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <Events/>
       <BookATable/>
       <Testimonials/>
+      <Gallery/>
     </div>
   );
 }

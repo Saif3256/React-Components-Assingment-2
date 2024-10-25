@@ -4,6 +4,7 @@ import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Whyus from "./Components/Why_us";
 import Menu from "./Components/Menu";
+import Specials from "./Components/Specials";
 function App() {
   
 
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Whyus/>
       <Menu/>
+      <Specials/>
     </div>
   );
 }

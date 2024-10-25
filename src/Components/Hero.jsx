@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Hero.css'; 
+import heroImage from '../assets/img/hero-bg.jpg';
 
 
 const Hero = () => {
@@ -7,8 +7,7 @@ const Hero = () => {
    
       
       <section id="hero" className="hero section dark-background">
-        <img src="/assets/img/hero-bg.jpg" alt="" data-aos="fade-in" />
-
+        <img src={heroImage} alt="" data-aos="fade-in" />
 
         <div className="container">
           <div className="row">

@@ -5,6 +5,7 @@ import About from "./Components/About";
 import Whyus from "./Components/Why_us";
 import Menu from "./Components/Menu";
 import Specials from "./Components/Specials";
+import Events from "./Components/Events";
 function App() {
   
 
@@ -16,6 +17,7 @@ function App() {
       <Whyus/>
       <Menu/>
       <Specials/>
+      <Events/>
     </div>
   );
 }

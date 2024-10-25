@@ -11,6 +11,7 @@ import Testimonials from "./Components/Testimonials";
 import Gallery from "./Components/Gallery";
 import Chefs from "./Components/Chefs";
 import Contact from "./Components/Contacts";
+import Footer from "./Components/footer";
 import './styles/Main.css';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <Gallery/>
       <Chefs/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

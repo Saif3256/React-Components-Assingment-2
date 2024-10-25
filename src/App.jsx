@@ -10,10 +10,10 @@ import BookATable from "./Components/BookATable";
 import Testimonials from "./Components/Testimonials";
 import Gallery from "./Components/Gallery";
 import Chefs from "./Components/Chefs";
+import Contact from "./Components/Contacts";
+import './styles/Main.css';
 
 function App() {
-
-  
 
   return (
     <div>
@@ -28,6 +28,7 @@ function App() {
       <Testimonials/>
       <Gallery/>
       <Chefs/>
+      <Contact/>
     </div>
   );
 }

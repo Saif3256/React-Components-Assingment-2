@@ -7,6 +7,8 @@ import Menu from "./Components/Menu";
 import Specials from "./Components/Specials";
 import Events from "./Components/Events";
 import BookATable from "./Components/BookATable";
+import Testimonials from "./Components/Testimonials";
+
 function App() {
 
   
@@ -21,6 +23,7 @@ function App() {
       <Specials/>
       <Events/>
       <BookATable/>
+      <Testimonials/>
     </div>
   );
 }

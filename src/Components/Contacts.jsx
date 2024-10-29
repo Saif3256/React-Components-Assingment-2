@@ -1,6 +1,6 @@
 
 import React from 'react';
-
+import './styles/Main.css';
 const Contact = () => {
   return (
     <section id="contact" className="contact section">

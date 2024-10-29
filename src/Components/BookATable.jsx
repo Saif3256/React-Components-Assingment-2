@@ -1,7 +1,9 @@
 
 import React, { useState } from 'react';
 import '../styles/BookATable.css'; 
-import './styles/Main.css';
+import '../styles/Main.css';
+import '../App.css';
+import '../index.css';
 const BookATable = () => {
   const [formData, setFormData] = useState({
     name: '',

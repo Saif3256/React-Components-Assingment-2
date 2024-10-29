@@ -1,7 +1,9 @@
 import React from 'react';
-import './styles/Main.css';
+import '../styles/Main.css';
 import aboutImage from '../assets/img/about.jpg'; 
 import '../styles/About.css'
+import '../index.css';
+import '../App.css';
 const About = () => {
   return (
     <section id="about" className="about section">

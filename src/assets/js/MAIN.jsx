@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import GLightbox from "glightbox";
-import Isotope from "isotope-layout";
+import Isotope from 'isotope-layout';
+
 import Swiper from "swiper";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import "swiper/swiper-bundle.min.css";
+
 
 const MainComponent = () => {
   const [isScrolled, setIsScrolled] = useState(false);

@@ -1,7 +1,9 @@
 // src/components/Events.js
 import React from 'react';
 import '../styles/Events.css'; // You can create this CSS file to handle styles for the Events component
-import './styles/Main.css';
+import '../styles/Main.css';
+import '../App.css';
+import '../index.css';
 const eventsData = [
   {
     title: "Birthday Parties",

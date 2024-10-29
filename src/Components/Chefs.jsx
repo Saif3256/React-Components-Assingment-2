@@ -1,6 +1,9 @@
 
 import React from 'react';
-import './styles/Main.css';
+import '../styles/Main.css';
+import '../styles/Chefs.css';
+import '../App.css';
+import '../index.css';
 const chefsData = [
   {
     name: 'Walter White',

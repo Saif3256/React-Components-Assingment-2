@@ -1,7 +1,8 @@
 import React from 'react';
 import heroImage from '../assets/img/hero-bg.jpg';
-import './styles/Main.css';
-
+import '../styles/Main.css';
+import '../App.css';
+import '../index.css';
 const Hero = () => {
   return (
    

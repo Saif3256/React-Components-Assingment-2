@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/Specials.css'
-import './styles/Main.css';
+import '../styles/Main.css';
+import '../App.css';
+import '../index.css';
 const Specials = () => {
   return (
     <section id="specials" className="specials section">

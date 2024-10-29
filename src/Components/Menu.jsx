@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/Menu.css';
-import './styles/Main.css';
+import '../styles/Main.css';
+import '../index.css';
+import '../App.css';
 const Menu = () => {
   return (
     <section id="menu" className="menu section">

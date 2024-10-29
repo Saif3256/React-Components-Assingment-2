@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/Header.css'; 
-import './styles/Main.css';
+import '../styles/Main.css';
+import '../App.css';
+import '../index.css';
 const Header = () => {
   return (
     <header id="header" className="header fixed-top">

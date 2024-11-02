@@ -2,7 +2,10 @@ import React from 'react';
 
 import aboutImage from '../assets/img/about.jpg'; 
 import '../styles/About.css'
+import 'aos/dist/aos.css'; // Import AOS styles
+import AOS from 'aos'; // Import AOS library
 
+AOS.init(); // Initialize AOS
 const About = () => {
   return (
     <section id="about" className="about section">

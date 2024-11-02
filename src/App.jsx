@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Components/Header";
-import Hero from "./Components/Hero";
+import MainComponent from "./Components/Hero"
 import About from "./Components/About";
 import Whyus from "./Components/Why_us";
 import Menu from "./Components/Menu";
@@ -20,7 +20,7 @@ function App() {
     <div>
     
       <Header/>
-      <Hero/>
+      <MainComponent/>
       <About/>
       <Whyus/>
       <Menu/>

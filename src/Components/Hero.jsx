@@ -1,22 +1,23 @@
 import React from 'react';
-import heroImage from '../assets/img/hero-bg.jpg';
+import '../styles/Hero.css'; // Import your CSS file for styling
+import heroBg from '../assets/img/hero-bg.jpg'; // Import background image
+import 'aos/dist/aos.css'; // Import AOS styles
+import AOS from 'aos'; // Import AOS library
 
-const Hero = () => {
+AOS.init(); // Initialize AOS
+
+const MainComponent = () => {
   return (
-   
-      
+    <main className="main">
+      {/* Hero Section */}
       <section id="hero" className="hero section dark-background">
-        <img src={heroImage} alt="" data-aos="fade-in" />
+        <img src={heroBg} alt="Hero Background" data-aos="fade-in" />
 
         <div className="container">
           <div className="row">
             <div className="col-lg-8 d-flex flex-column align-items-center align-items-lg-start">
-              <h2 data-aos="fade-up" data-aos-delay="100">
-                Welcome to <span>Restaurantly</span>
-              </h2>
-              <p data-aos="fade-up" data-aos-delay="200">
-                Delivering great food for more than 18 years!
-              </p>
+              <h2 data-aos="fade-up" data-aos-delay="100">Welcome to <span>Restaurantly</span></h2>
+              <p data-aos="fade-up" data-aos-delay="200">Delivering great food for more than 18 years!</p>
               <div className="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
                 <a href="#menu" className="cta-btn">Our Menu</a>
                 <a href="#book-a-table" className="cta-btn">Book a Table</a>
@@ -28,8 +29,10 @@ const Hero = () => {
           </div>
         </div>
       </section>
-    
+      {/* /Hero Section */}
+
+    </main>
   );
 };
 
-export default Hero;
+export default MainComponent;

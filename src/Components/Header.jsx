@@ -1,6 +1,9 @@
 import React from 'react';
 import '../styles/Header.css'; 
+import 'aos/dist/aos.css'; // Import AOS styles
+import AOS from 'aos'; // Import AOS library
 
+AOS.init(); // Initialize AOS
 const Header = () => {
   return (
     <header id="header" className="header fixed-top">

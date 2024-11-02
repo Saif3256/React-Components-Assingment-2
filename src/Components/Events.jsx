@@ -1,53 +1,21 @@
-// src/components/Events.js
 import React from 'react';
-import '../styles/Events.css'; // You can create this CSS file to handle styles for the Events component
-
-import eventImage1 from '../assets/img/events-slider/events-slider-1.jpg';
-import eventImage2 from '../assets/img/events-slider/events-slider-2.jpg';
-import eventImage3 from '../assets/img/events-slider/events-slider-3.jpg';
-
-const eventsData = [
-  {
-    title: "Birthday Parties",
-    price: "$189",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    features: [
-      "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit.",
-      "Ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    ],
-    image: eventImage1,
-  },
-  {
-    title: "Private Parties",
-    price: "$290",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    features: [
-      "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit.",
-      "Ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    ],
-    image: eventImage2,
-  },
-  {
-    title: "Custom Parties",
-    price: "$99",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    features: [
-      "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit.",
-      "Ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    ],
-    image: eventImage3,
-  },
-];
-
+import eventBg from '../assets/img/events-bg.jpg';
+import event1 from '../assets/img/events-slider/events-slider-1.jpg';
+import event2 from '../assets/img/events-slider/events-slider-2.jpg';
+import event3 from '../assets/img/events-slider/events-slider-3.jpg';
+import '../styles/Events.css'; // Adjust the path as necessary
 
 const Events = () => {
   return (
-    <section id="events" className="events section">
-      <img className="slider-bg" src="assets/img/events-bg.jpg" alt="" data-aos="fade-in" />
-
+    <section
+      id="events"
+      className="events section"
+      style={{
+        backgroundImage: `url(${eventBg})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
+    >
       <div className="container">
         <div className="swiper init-swiper" data-aos="fade-up" data-aos-delay="100">
           <script type="application/json" className="swiper-config">
@@ -55,43 +23,93 @@ const Events = () => {
               loop: true,
               speed: 600,
               autoplay: {
-                delay: 5000
+                delay: 5000,
               },
-              slidesPerView: "auto",
+              slidesPerView: 'auto',
               pagination: {
-                el: ".swiper-pagination",
-                type: "bullets",
-                clickable: true
-              }
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true,
+              },
             })}
           </script>
           <div className="swiper-wrapper">
-            {eventsData.map((event, index) => (
-              <div className="swiper-slide" key={index}>
-                <div className="row gy-4 event-item">
-                  <div className="col-lg-6">
-                    <img src={event.image} className="img-fluid" alt={event.title} />
+
+            <div className="swiper-slide">
+              <div className="row gy-4 event-item">
+                <div className="col-lg-6">
+                  <img src={event1} className="img-fluid" alt="Birthday Parties" />
+                </div>
+                <div className="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Birthday Parties</h3>
+                  <div className="price">
+                    <p><span>$189</span></p>
                   </div>
-                  <div className="col-lg-6 pt-4 pt-lg-0 content">
-                    <h3>{event.title}</h3>
-                    <div className="price">
-                      <p><span>{event.price}</span></p>
-                    </div>
-                    <p className="fst-italic">{event.description}</p>
-                    <ul>
-                      {event.features.map((feature, featureIndex) => (
-                        <li key={featureIndex}>
-                          <i className="bi bi-check2-circle"></i> <span>{feature}</span>
-                        </li>
-                      ))}
-                    </ul>
-                    <p>
-                      Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p>
-                  </div>
+                  <p className="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i className="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                    <li><i className="bi bi-check2-circle"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+                    <li><i className="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  </p>
                 </div>
               </div>
-            ))}
+            </div>
+
+            <div className="swiper-slide">
+              <div className="row gy-4 event-item">
+                <div className="col-lg-6">
+                  <img src={event2} className="img-fluid" alt="Private Parties" />
+                </div>
+                <div className="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Private Parties</h3>
+                  <div className="price">
+                    <p><span>$290</span></p>
+                  </div>
+                  <p className="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i className="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                    <li><i className="bi bi-check2-circle"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+                    <li><i className="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="swiper-slide">
+              <div className="row gy-4 event-item">
+                <div className="col-lg-6">
+                  <img src={event3} className="img-fluid" alt="Custom Parties" />
+                </div>
+                <div className="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Custom Parties</h3>
+                  <div className="price">
+                    <p><span>$99</span></p>
+                  </div>
+                  <p className="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i className="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                    <li><i className="bi bi-check2-circle"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+                    <li><i className="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  </p>
+                </div>
+              </div>
+            </div>
+
           </div>
           <div className="swiper-pagination"></div>
         </div>

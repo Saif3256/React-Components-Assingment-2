@@ -1,13 +1,15 @@
-
 import React from 'react';
+import '../styles/Contact.css'; // Adjust the path as necessary
 
 const Contact = () => {
   return (
     <section id="contact" className="contact section">
+      {/* Section Title */}
       <div className="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
         <p>Contact Us</p>
       </div>
+      {/* End Section Title */}
 
       <div className="mb-5" data-aos="fade-up" data-aos-delay="200">
         <iframe
@@ -19,6 +21,7 @@ const Contact = () => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
+      {/* End Google Maps */}
 
       <div className="container" data-aos="fade-up" data-aos-delay="100">
         <div className="row gy-4">
@@ -30,6 +33,7 @@ const Contact = () => {
                 <p>A108 Adam Street, New York, NY 535022</p>
               </div>
             </div>
+            {/* End Info Item */}
 
             <div className="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
               <i className="bi bi-telephone flex-shrink-0"></i>
@@ -38,6 +42,7 @@ const Contact = () => {
                 <p>Monday-Saturday:<br />11:00 AM - 11:00 PM</p>
               </div>
             </div>
+            {/* End Info Item */}
 
             <div className="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
               <i className="bi bi-telephone flex-shrink-0"></i>
@@ -46,6 +51,7 @@ const Contact = () => {
                 <p>+1 5589 55488 55</p>
               </div>
             </div>
+            {/* End Info Item */}
 
             <div className="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
               <i className="bi bi-envelope flex-shrink-0"></i>
@@ -54,6 +60,7 @@ const Contact = () => {
                 <p>info@example.com</p>
               </div>
             </div>
+            {/* End Info Item */}
           </div>
 
           <div className="col-lg-8">
@@ -62,15 +69,19 @@ const Contact = () => {
                 <div className="col-md-6">
                   <input type="text" name="name" className="form-control" placeholder="Your Name" required />
                 </div>
+
                 <div className="col-md-6">
                   <input type="email" className="form-control" name="email" placeholder="Your Email" required />
                 </div>
+
                 <div className="col-md-12">
                   <input type="text" className="form-control" name="subject" placeholder="Subject" required />
                 </div>
+
                 <div className="col-md-12">
                   <textarea className="form-control" name="message" rows="6" placeholder="Message" required></textarea>
                 </div>
+
                 <div className="col-md-12 text-center">
                   <div className="loading">Loading</div>
                   <div className="error-message"></div>
@@ -81,6 +92,7 @@ const Contact = () => {
               </div>
             </form>
           </div>
+          {/* End Contact Form */}
         </div>
       </div>
     </section>

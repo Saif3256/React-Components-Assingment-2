@@ -1,14 +1,19 @@
-
 import React from 'react';
 
 import '../styles/Chefs.css';
 import '../App.css';
 import '../index.css';
+
+// Import images directly
+import chef1 from '../assets/img/chefs/chefs-1.jpg';
+import chef2 from '../assets/img/chefs/chefs-2.jpg';
+import chef3 from '../assets/img/chefs/chefs-3.jpg';
+
 const chefsData = [
   {
     name: 'Walter White',
     title: 'Master Chef',
-    image: 'assets/img/chefs/chefs-1.jpg',
+    image: chef1, // Use the imported image
     socialLinks: {
       twitter: '#',
       facebook: '#',
@@ -17,9 +22,9 @@ const chefsData = [
     },
   },
   {
-    name: 'Sarah Jhonson',
+    name: 'Sarah Johnson',
     title: 'Patissier',
-    image: 'assets/img/chefs/chefs-2.jpg',
+    image: chef2, // Use the imported image
     socialLinks: {
       twitter: '#',
       facebook: '#',
@@ -30,7 +35,7 @@ const chefsData = [
   {
     name: 'William Anderson',
     title: 'Cook',
-    image: 'assets/img/chefs/chefs-3.jpg',
+    image: chef3, // Use the imported image
     socialLinks: {
       twitter: '#',
       facebook: '#',

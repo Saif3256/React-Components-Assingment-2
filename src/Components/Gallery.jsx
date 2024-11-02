@@ -1,17 +1,26 @@
-
 import React from 'react';
-import '../styles/Main.css'
+import '../styles/Main.css';
+
+// Import images directly
+import gallery1 from '../assets/img/gallery/gallery-1.jpg';
+import gallery2 from '../assets/img/gallery/gallery-2.jpg';
+import gallery3 from '../assets/img/gallery/gallery-3.jpg';
+import gallery4 from '../assets/img/gallery/gallery-4.jpg';
+import gallery5 from '../assets/img/gallery/gallery-5.jpg';
+import gallery6 from '../assets/img/gallery/gallery-6.jpg';
+import gallery7 from '../assets/img/gallery/gallery-7.jpg';
+import gallery8 from '../assets/img/gallery/gallery-8.jpg';
 
 const Gallery = () => {
   const galleryImages = [
-    'assets/img/gallery/gallery-1.jpg',
-    'assets/img/gallery/gallery-2.jpg',
-    'assets/img/gallery/gallery-3.jpg',
-    'assets/img/gallery/gallery-4.jpg',
-    'assets/img/gallery/gallery-5.jpg',
-    'assets/img/gallery/gallery-6.jpg',
-    'assets/img/gallery/gallery-7.jpg',
-    'assets/img/gallery/gallery-8.jpg',
+    gallery1,
+    gallery2,
+    gallery3,
+    gallery4,
+    gallery5,
+    gallery6,
+    gallery7,
+    gallery8,
   ];
 
   return (

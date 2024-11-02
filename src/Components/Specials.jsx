@@ -1,8 +1,12 @@
 import React from 'react';
-import '../styles/Specials.css'
-import '../styles/Main.css';
-import '../App.css';
-import '../index.css';
+import '../styles/Specials.css';
+
+import specialImage1 from '../assets/img/specials-1.png';
+import specialImage2 from '../assets/img/specials-2.png';
+import specialImage3 from '../assets/img/specials-3.png';
+import specialImage4 from '../assets/img/specials-4.png';
+import specialImage5 from '../assets/img/specials-5.png';
+
 const Specials = () => {
   return (
     <section id="specials" className="specials section">
@@ -44,7 +48,7 @@ const Specials = () => {
                     <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
                   </div>
                   <div className="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-1.png" alt="" className="img-fluid" />
+                    <img src={specialImage1} alt="" className="img-fluid" />
                   </div>
                 </div>
               </div>
@@ -58,7 +62,7 @@ const Specials = () => {
                     <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
                   </div>
                   <div className="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-2.png" alt="" className="img-fluid" />
+                    <img src={specialImage2} alt="" className="img-fluid" />
                   </div>
                 </div>
               </div>
@@ -72,7 +76,7 @@ const Specials = () => {
                     <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
                   </div>
                   <div className="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-3.png" alt="" className="img-fluid" />
+                    <img src={specialImage3} alt="" className="img-fluid" />
                   </div>
                 </div>
               </div>
@@ -86,7 +90,7 @@ const Specials = () => {
                     <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
                   </div>
                   <div className="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-4.png" alt="" className="img-fluid" />
+                    <img src={specialImage4} alt="" className="img-fluid" />
                   </div>
                 </div>
               </div>
@@ -100,7 +104,7 @@ const Specials = () => {
                     <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
                   </div>
                   <div className="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-5.png" alt="" className="img-fluid" />
+                    <img src={specialImage5} alt="" className="img-fluid" />
                   </div>
                 </div>
               </div>

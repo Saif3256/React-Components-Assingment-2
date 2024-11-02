@@ -1,8 +1,6 @@
 
 import React from 'react';
-import '../styles/Main.css';
-import '../App.css';
-import '../index.css';
+
 const Contact = () => {
   return (
     <section id="contact" className="contact section">

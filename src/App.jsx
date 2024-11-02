@@ -12,13 +12,13 @@ import Gallery from "./Components/Gallery";
 import Chefs from "./Components/Chefs";
 import Contact from "./Components/Contacts";
 import Footer from "./Components/footer";
-import './styles/Main.css';
-import MainComponent from "./assets/js/main";
+
+
 function App() {
 
   return (
     <div>
-    <MainComponent/>
+    
       <Header/>
       <Hero/>
       <About/>

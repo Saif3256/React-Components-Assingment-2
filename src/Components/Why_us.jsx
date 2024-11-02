@@ -1,8 +1,6 @@
 import React from 'react';
 import '../styles/WhyUs.css'; 
-import '../styles/Main.css';
-import '../App.css';
-import '../index.css';
+
 const WhyUs = () => {
   return (
     <section id="why-us" className="why-us section">

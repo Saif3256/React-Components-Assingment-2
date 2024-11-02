@@ -1,8 +1,7 @@
 
 import React from 'react';
 import '../styles/Main.css'
-import '../index.css';;
-import '../App.css';
+
 const Gallery = () => {
   const galleryImages = [
     'assets/img/gallery/gallery-1.jpg',

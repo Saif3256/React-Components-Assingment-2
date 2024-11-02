@@ -3,9 +3,9 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css'; 
 import '../styles/Testimonials.css'; 
-import '../styles/Main.css';
-import '../App.css';
-import '../index.css';
+
+
+
 const Testimonials = () => {
   const testimonialsData = [
     {

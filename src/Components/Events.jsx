@@ -1,9 +1,11 @@
 // src/components/Events.js
 import React from 'react';
 import '../styles/Events.css'; // You can create this CSS file to handle styles for the Events component
-import '../styles/Main.css';
-import '../App.css';
-import '../index.css';
+
+import eventImage1 from '../assets/img/events-slider/events-slider-1.jpg';
+import eventImage2 from '../assets/img/events-slider/events-slider-2.jpg';
+import eventImage3 from '../assets/img/events-slider/events-slider-3.jpg';
+
 const eventsData = [
   {
     title: "Birthday Parties",
@@ -14,7 +16,7 @@ const eventsData = [
       "Duis aute irure dolor in reprehenderit in voluptate velit.",
       "Ullamco laboris nisi ut aliquip ex ea commodo consequat."
     ],
-    image: "assets/img/events-slider/events-slider-1.jpg"
+    image: eventImage1,
   },
   {
     title: "Private Parties",
@@ -25,7 +27,7 @@ const eventsData = [
       "Duis aute irure dolor in reprehenderit in voluptate velit.",
       "Ullamco laboris nisi ut aliquip ex ea commodo consequat."
     ],
-    image: "assets/img/events-slider/events-slider-2.jpg"
+    image: eventImage2,
   },
   {
     title: "Custom Parties",
@@ -36,9 +38,10 @@ const eventsData = [
       "Duis aute irure dolor in reprehenderit in voluptate velit.",
       "Ullamco laboris nisi ut aliquip ex ea commodo consequat."
     ],
-    image: "assets/img/events-slider/events-slider-3.jpg"
+    image: eventImage3,
   },
 ];
+
 
 const Events = () => {
   return (

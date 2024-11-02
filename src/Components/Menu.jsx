@@ -1,8 +1,6 @@
 import React from 'react';
 import '../styles/Menu.css';
-import '../styles/Main.css';
-import '../index.css';
-import '../App.css';
+
 const Menu = () => {
   return (
     <section id="menu" className="menu section">
@@ -26,7 +24,7 @@ const Menu = () => {
        
         <div className="row isotope-container" data-aos="fade-up" data-aos-delay="200">
           <div className="col-lg-6 menu-item isotope-item filter-starters">
-            <img src="assets/img/menu/lobster-bisque.jpg" className="menu-img" alt="" />
+            <img src="../assets/img/menu/lobster-bisque.jpg" className="menu-img" alt="" />
             <div className="menu-content">
               <a href="#">Lobster Bisque</a><span>$5.95</span>
             </div>
@@ -37,7 +35,7 @@ const Menu = () => {
          
 
           <div className="col-lg-6 menu-item isotope-item filter-specialty">
-            <img src="assets/img/menu/bread-barrel.jpg" className="menu-img" alt="" />
+            <img src="../assets/img/menu/bread-barrel.jpg" className="menu-img" alt="" />
             <div className="menu-content">
               <a href="#">Bread Barrel</a><span>$6.95</span>
             </div>
@@ -48,7 +46,7 @@ const Menu = () => {
          
 
           <div className="col-lg-6 menu-item isotope-item filter-starters">
-            <img src="assets/img/menu/cake.jpg" className="menu-img" alt="" />
+            <img src="../assets/img/menu/cake.jpg" className="menu-img" alt="" />
             <div className="menu-content">
               <a href="#">Crab Cake</a><span>$7.95</span>
             </div>
@@ -58,7 +56,7 @@ const Menu = () => {
           </div>
          
           <div className="col-lg-6 menu-item isotope-item filter-salads">
-            <img src="assets/img/menu/caesar.jpg" className="menu-img" alt="" />
+            <img src="../assets/img/menu/caesar.jpg" className="menu-img" alt="" />
             <div className="menu-content">
               <a href="#">Caesar Selections</a><span>$8.95</span>
             </div>
@@ -69,7 +67,7 @@ const Menu = () => {
          
 
           <div className="col-lg-6 menu-item isotope-item filter-specialty">
-            <img src="assets/img/menu/tuscan-grilled.jpg" className="menu-img" alt="" />
+            <img src="../assets/img/menu/tuscan-grilled.jpg" className="menu-img" alt="" />
             <div className="menu-content">
               <a href="#">Tuscan Grilled</a><span>$9.95</span>
             </div>
@@ -79,7 +77,7 @@ const Menu = () => {
           </div>
         
           <div className="col-lg-6 menu-item isotope-item filter-starters">
-            <img src="assets/img/menu/mozzarella.jpg" className="menu-img" alt="" />
+            <img src="../assets/img/menu/mozzarella.jpg" className="menu-img" alt="" />
             <div className="menu-content">
               <a href="#">Mozzarella Stick</a><span>$4.95</span>
             </div>
@@ -90,7 +88,7 @@ const Menu = () => {
           {/* Menu Item */}
 
           <div className="col-lg-6 menu-item isotope-item filter-salads">
-            <img src="assets/img/menu/greek-salad.jpg" className="menu-img" alt="" />
+            <img src="../assets/img/menu/greek-salad.jpg" className="menu-img" alt="" />
             <div className="menu-content">
               <a href="#">Greek Salad</a><span>$9.95</span>
             </div>
@@ -101,7 +99,7 @@ const Menu = () => {
           {/* Menu Item */}
 
           <div className="col-lg-6 menu-item isotope-item filter-salads">
-            <img src="assets/img/menu/spinach-salad.jpg" className="menu-img" alt="" />
+            <img src="../assets/img/menu/spinach-salad.jpg" className="menu-img" alt="" />
             <div className="menu-content">
               <a href="#">Spinach Salad</a><span>$9.95</span>
             </div>
@@ -112,7 +110,7 @@ const Menu = () => {
           {/* Menu Item */}
 
           <div className="col-lg-6 menu-item isotope-item filter-specialty">
-            <img src="assets/img/menu/lobster-roll.jpg" className="menu-img" alt="" />
+            <img src="../assets/img/menu/lobster-roll.jpg" className="menu-img" alt="" />
             <div className="menu-content">
               <a href="#">Lobster Roll</a><span>$12.95</span>
             </div>
